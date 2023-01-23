@@ -34,3 +34,6 @@ install-amazon-linux:
 ```
 
 Run `make ___` according to your venv
+---------------------------------------------------------------
+
+[Demo video in AWS for this project](https://www.youtube.com/watch?v=p3yDxVSr2Ms)
