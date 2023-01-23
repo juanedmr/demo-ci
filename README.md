@@ -32,3 +32,5 @@ install-amazon-linux:
 		pip install -r amazon-linux.txt
 
 ```
+
+Run `make ___` according to your venv
