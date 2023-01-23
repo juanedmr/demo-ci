@@ -5,6 +5,30 @@ Continous integration demo project
 
 ----------------------------------------------------
 To run this project:
-1.-
-2.-
-3.-
+
+* Create a Github Repo
+* Create a virtual environment
+* Pair both with an SSH key
+* Upload the SSh key to Github
+* Run the makefile project with the proper configuration:
+
+The file contains the following configurations for the venv:
+
+```
+install:
+	pip install --upgrade pip &&\
+		pip install -r requirements.txt
+
+install-gcp:
+	pip install --upgrade pip &&\
+		pip install -r requirements-gcp.txt
+
+install-aws:
+	pip install --upgrade pip &&\
+		pip install -r requirements-aws.txt
+
+install-amazon-linux:
+	pip install --upgrade pip &&\
+		pip install -r amazon-linux.txt
+
+```
